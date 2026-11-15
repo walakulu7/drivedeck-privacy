@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DriveDeck Privacy Policy</title>
+<style>
+  :root { --bg: #f6f7f9; --fg: #14181d; --sub: #545b64; --line: #dde1e6; --accent: #0b7f55; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0d1117; --fg: #e8ebef; --sub: #a4abb4; --line: #262c34; --accent: #3ddc97; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 30px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; color: var(--accent); }
+  p, li { color: var(--fg); }
+  .sub { color: var(--sub); margin: 0 0 24px; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--sub); font-weight: 600; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>DriveDeck Privacy Policy</h1>
+<p class="sub">Effective 15 November 2026 · App: DriveDeck (lk.walakulu.drivedeck)</p>
+
+<p>DriveDeck is a home screen for Android car head units. It has no accounts, no advertising and no analytics. Almost everything it does happens on the device. This page lists every piece of information it uses and the only places anything ever leaves the device.</p>
+
+<h2>What stays on the device</h2>
+<table>
+  <tr><th>Information</th><th>Why</th></tr>
+  <tr><td>Precise location (GPS)</td><td>Speed, trip distance, compass heading, the town background and sunrise and sunset times. Trip distance and time are kept only in the app's private storage.</td></tr>
+  <tr><td>Notifications from music and navigation apps</td><td>Only if you turn on notification access. DriveDeck reads the song title, artist, album art and next-turn directions to show them on the home screen. It does not store them or send them anywhere, and it ignores all other notifications.</td></tr>
+  <tr><td>Music library (song lengths)</td><td>Only if you allow it, to show how far through a song you are when the music app doesn't say. Nothing is copied or sent.</td></tr>
+  <tr><td>Your car, name, home and work addresses, settings</td><td>Saved in the app's private storage to draw your car, greet you and open navigation. Addresses are handed to your navigation app only when you tap Home or Work.</td></tr>
+  <tr><td>A short log of when the screen turned on and off</td><td>Kept on the device so you can check why the welcome animation did or didn't play. Shown under Settings.</td></tr>
+</table>
+<p>DriveDeck turns off Android backup, so none of this is copied to a cloud backup.</p>
+
+<h2>What leaves the device</h2>
+<table>
+  <tr><th>Sent to</th><th>What and when</th></tr>
+  <tr><td><a href="https://open-meteo.com/">Open-Meteo</a> (weather)</td><td>Your approximate location, rounded to about 100 metres, at most every 30 minutes while the home screen is open, to show the weather. No identifier is sent with it. See <a href="https://open-meteo.com/en/terms">Open-Meteo's terms</a>.</td></tr>
+  <tr><td>Your device's geocoding service</td><td>The same rounded location, at the same times, through Android's built-in Geocoder, to find the name of the town shown beside the clock. On most devices this service is provided by Google, under the device's own terms.</td></tr>
+  <tr><td>Google Gemini API (AI Studio, optional)</td><td>Only when you use AI Studio with your own Gemini API key: the scene description you type, or the make, model and colour of your car, or a photo you choose of your car. Google processes these under your own Google account and <a href="https://ai.google.dev/gemini-api/terms">the Gemini API terms</a>. Your key is kept in the app's private storage and sent only to Google.</td></tr>
+</table>
+<p>DriveDeck does not sell, share or rent information to anyone else, and does not use it for advertising.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>Location:</strong> speed, trip and weather, as above. A notification shows while the speed service is running.</li>
+  <li><strong>Notification access:</strong> optional, for song titles and next-turn directions.</li>
+  <li><strong>Music and audio files:</strong> optional, for song lengths.</li>
+  <li><strong>Internet:</strong> weather and the optional AI Studio.</li>
+</ul>
+
+<h2>Your choices</h2>
+<p>You can refuse or withdraw any permission in Android settings, and the rest of the app keeps working. Clearing the app's storage or uninstalling it deletes everything it saved. Because DriveDeck keeps no data on any server, there is nothing else to delete.</p>
+
+<h2>Children</h2>
+<p>DriveDeck is made for drivers and is not directed at children.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy: open an issue at <a href="https://github.com/walakulu7/drive-deck/issues">github.com/walakulu7/drive-deck/issues</a>.</p>
+</main>
+</body>
+</html>
